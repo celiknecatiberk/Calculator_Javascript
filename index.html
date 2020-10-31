@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+    
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="historyValue"></p>
+                </div>
+                <hr class="hr">
+                <div id="output">
+                    <p id="outputValue"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator opBorder fas" id="clear" style="font-family: 'Varela Round', sans-serif; font-size:20px;">C</button>
+                <button class="operator opBorder fas" id="backspace" style="font-family: 'Varela Round', sans-serif;font-size:20px;">CE</button>
+                <button class="operator opBorder opSign" id="%"><i class="fas fa-percent"></i></button>
+                <button class="operator opSign" id="/"><i class="fas fa-divide"></i></button>
+                <button class="number op" id="7">7</button>
+                <button class="number op" id="8">8</button>
+                <button class="number op" id="9">9</button>
+                <button class="operator opSign" id="*"><i class="fas fa-times"></i></button>
+                <button class="number op" id="4">4</button>
+                <button class="number op" id="5">5</button>
+                <button class="number op" id="6">6</button>
+                <button class="operator opSign" id="-"><i class="fas fa-minus"></i></button>
+                <button class="number op" id="1">1</button>
+                <button class="number op" id="2">2</button>
+                <button class="number op" id="3">3</button>
+                <button class="operator opSign" id="+"><i class="fas fa-plus"></i></button>
+                <button class="empty" id="empty"></button>
+                <button class="number op" id="0">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="operator opSign" id="="><i class="fas fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
